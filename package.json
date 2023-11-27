@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "name": "debit-app",
+    "version": "1.0.0",
+    "description": "The app to allow local retailers paid",
+    "scripts": {
+        "web": "yarn workspace web-app start",
+        "android": "yarn workspace mobile-app android",
+        "ios": "yarn workspace mobile-app ios"
+    },
+    "workspaces": [
+        "mobile-app",
+        "web-app",
+        "common"
+    ],
+    "author": "kalembajamil21@gmail.com",
+    "devDependencies": {
+        "create-expo-app": "^2.1.1",
+        "create-react-app": "^5.0.1"
+    }
+}
