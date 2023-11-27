@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+
 
 # misc
 .DS_Store
@@ -58,3 +58,5 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+.yarn
