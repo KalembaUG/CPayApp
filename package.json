@@ -5,6 +5,7 @@
     "description": "The app to allow local retailers paid",
     "scripts": {
         "web": "yarn workspace web-app start",
+        "deploy": "yarn workspace web-app deploy",
         "android": "yarn workspace mobile-app android",
         "ios": "yarn workspace mobile-app ios"
     },
